@@ -1,0 +1,95 @@
+\begin{thebibliography}{}
+
+\bibitem[Abobakr et~al., 2017]{Abobakr2017}
+Abobakr, A., Nahavandi, D., Iskander, J., Hossny, M., Nahavandi, S., and Smets,
+  M. (2017).
+\newblock {RGB-D human posture analysis for ergonomic studies using deep
+  convolutional neural network}.
+\newblock In {\em 2017 IEEE International Conference on Systems, Man, and
+  Cybernetics, SMC 2017}, volume 2017-Janua, pages 2885--2890. Institute of
+  Electrical and Electronics Engineers Inc.
+
+\bibitem[Barkallah et~al., 2017]{Barkallah2017}
+Barkallah, E., Freulard, J., Otis, M.~J., Ngomo, S., Ayena, J.~C., and
+  Desrosiers, C. (2017).
+\newblock {Wearable devices for classification of inadequate posture at work
+  using neural networks}.
+\newblock {\em Sensors (Switzerland)}, 17(9).
+
+\bibitem[Bevan, 2015]{Bevan2015}
+Bevan, S. (2015).
+\newblock {Economic impact of musculoskeletal disorders (MSDs) on work in
+  Europe}.
+
+\bibitem[Buisseret et~al., 2018]{Buisseret2018}
+Buisseret, F., Dierick, F., Hamzaoui, O., and Jojczyk, L. (2018).
+\newblock Ergonomic risk assessment of developing musculoskeletal disorders in
+  workers with the microsoft kinect: Track tms.
+\newblock {\em IRBM}, 39(6):436--439.
+
+\bibitem[Chen et~al., 2018]{Chen2018}
+Chen, D., Cai, Y., Cui, J., Chen, J., Jiang, H., and Huang, M.~C. (2018).
+\newblock {Risk factors identification and visualization for work-related
+  musculoskeletal disorders with wearable and connected gait analytics system
+  and kinect skeleton models}.
+\newblock {\em Smart Health}, 7-8:60--77.
+
+\bibitem[Hu et~al., 2018]{Hu2018}
+Hu, B., Kim, C., Ning, X., and Xu, X. (2018).
+\newblock {Using a deep learning network to recognise low back pain in static
+  standing}.
+\newblock {\em Ergonomics}, 61(10):1374--1381.
+
+\bibitem[Karltun et~al., 2016]{Karltun2016}
+Karltun, J., Vogel, K., Bergstrand, M., and Eklund, J. (2016).
+\newblock {Maintaining knife sharpness in industrial meat cutting: A matter of
+  knife or meat cutter ability}.
+\newblock {\em Applied Ergonomics}, 56:92--100.
+
+\bibitem[Lim and D'Souza, 2020]{Lim2020}
+Lim, S. and D'Souza, C. (2020).
+\newblock {A narrative review on contemporary and emerging uses of inertial
+  sensing in occupational ergonomics}.
+\newblock {\em International Journal of Industrial Ergonomics}, 76(November
+  2019):102937.
+
+\bibitem[Marsot et~al., 2007]{Marsot2007}
+Marsot, J., Claudon, L., and Jacqmin, M. (2007).
+\newblock {Assessment of knife sharpness by means of a cutting force measuring
+  system}.
+\newblock {\em Applied Ergonomics}, 38(1):83--89.
+
+\bibitem[McAtamney and {Nigel Corlett}, 1993]{McAtamney1993}
+McAtamney, L. and {Nigel Corlett}, E. (1993).
+\newblock {RULA: a survey method for the investigation of work-related upper
+  limb disorders}.
+\newblock {\em Applied Ergonomics}, 24(2):91--99.
+
+\bibitem[Occhipinti, 1998]{Occhipinti1998}
+Occhipinti, E. (1998).
+\newblock {OCRA: A concise index for the assessment of exposure to repetitive
+  movements of the upper limbs}.
+\newblock {\em Ergonomics}, 41(9):1290--1311.
+
+\bibitem[Savescu et~al., 2018]{Savescu2018}
+Savescu, A., Cuny-Guerrier, A., Wild, P., Reno, G., Aublet-Cuvelier, A., and
+  Claudon, L. (2018).
+\newblock {Objective assessment of knife sharpness over a working day cutting
+  meat}.
+\newblock {\em Applied Ergonomics}, 68(April 2017):109--116.
+
+\bibitem[Vignais et~al., 2013]{Vignais2013}
+Vignais, N., Miezal, M., Bleser, G., Mura, K., Gorecky, D., and Marin, F.
+  (2013).
+\newblock {Innovative system for real-time ergonomic feedback in industrial
+  manufacturing}.
+\newblock {\em Applied Ergonomics}, 44(4):566--574.
+
+\bibitem[{Viikari Juntura}, 1983]{ViikariJuntura1983}
+{Viikari Juntura}, E. (1983).
+\newblock {Neck and upper limb disorders among slaughterhouse workers. An
+  epidemiologic and clinical study}.
+\newblock {\em Scandinavian Journal of Work, Environment and Health},
+  9(3):283--290.
+
+\end{thebibliography}

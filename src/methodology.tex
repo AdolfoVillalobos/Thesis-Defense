@@ -2,14 +2,76 @@
 \frame{\sectionpage}
 
 
+\begin{frame}{Methodology}
+    \begin{alertblock}{Initial approach}
+        \begin{enumerate}
+            \item Measure workers.
+            \item Process data and try to detect patterns, i.e, observe box-plots, clustering.
+            \item Consult with experts and review ergonomic literature to see if insights made sense.
+            \item Iterate.
+        \end{enumerate}
+    \end{alertblock}
+\end{frame}
+
+
+\begin{frame}{Methodology}
+    \begin{alertblock}{Key components}
+        \begin{enumerate}
+            \item We model each risk factor of interest as a supervised learning problem.
+            \item Hence, for each problem we will need to provide supervision. This is done by performing measurements on workers.
+            \item Transform sensor data into features that can be used in supervised learning. (e.g. feature matrix in regression problems).
+            \item Ensemble a supervised learning pipeline: Pre-processing, encoding, standardization, feature engineering, training, validation (via cross validation) and test. On each
+            iteration a set of parameters is used. We choose the best one.
+            \item Obtain ergonomic insight for decision making.
+        \end{enumerate}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Methodology}
+    \begin{alertblock}{Strategic Guidelines}
+        \begin{enumerate}
+            \item System is innocuous to the worker and the product.
+            \item Generate an indicator that can be used to benchmark and evaluate workers.
+            \item Design a methodology that can be extrapolated to other cutting-tasks.
+            \item Avoid complex models if not needed.
+        \end{enumerate}
+    \end{alertblock}
+\end{frame}
 
 
 
+\begin{frame}{Prototype}
+    \begin{alertblock}{Components}
+        The prototype had 3 components.
+        \begin{enumerate}
+            \item The Graphical User Interface (GUI).
+            \item The wristband-based devices.
+            \item The Batch Layer.
+        \end{enumerate}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Experiments}
+\begin{alertblock}{Sample population}
+    2 instructors and 18 Non-senior workers with varying degrees of experience.
+\end{alertblock}    
+\end{frame}
 
 
 
+\begin{frame}{Experiments}
+    \begin{alertblock}{Work tasks}
+      Three work tasks. 
+      \begin{enumerate}
+          \item Instructor 1: Complete processing of the meat product
+          \item Instructor 2: Femur and coxal deboning
+          \item Non-senior workers: Femur deboning.
+      \end{enumerate}
+    \end{alertblock}
+\end{frame}
 
-
-
-
-
+\begin{frame}{Experiments}
+    \begin{alertblock}{Assessment of WRMSDs}
+        We propose a workflow for the assessment of WRMSDs based on the application of consecutive machine learning problems, using their predictions as input for a decision making rule.
+    \end{alertblock}
+\end{frame}
