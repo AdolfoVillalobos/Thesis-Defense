@@ -2,17 +2,68 @@
 \frame{\sectionpage}
 
 
-\begin{frame}{Methodology}
-    \begin{alertblock}{Initial approach}
-        \begin{enumerate}
-            \item Measure workers.
-            \item Process data and try to detect patterns, i.e, observe box-plots, clustering.
-            \item Consult with experts and review ergonomic literature to see if insights made sense.
-            \item Iterate.
-        \end{enumerate}
-    \end{alertblock}
-\end{frame}
+% \begin{frame}{Methodology}
+%     \begin{alertblock}{Initial approach}
+%         \begin{enumerate}
+%             \item Measure workers.
+%             \item Process data and try to detect patterns, i.e, observe box-plots, clustering.
+%             \item Consult with experts and review ergonomic literature to see if insights made sense.
+%             \item Iterate.
+%         \end{enumerate}
+%     \end{alertblock}
+% \end{frame}
 
+
+\begin{frame}
+    \frametitle{At the Beginning}
+    \begin{center}
+    \begin{tikzpicture}[node distance=1.2cm and .75cm,font=\small]
+        \setlength{\leftmargini}{10pt}
+    
+        \uncover<1->{\node[concept, align=center] (sys) {Device \\ \& System};}
+        \uncover<2->{
+            \node[concept, right=of sys, align=center] (measure) {Measure \\ Workers};    
+            \draw[conn] (sys) -- (measure);}
+        \uncover<3->{
+            \node[concept, right=of measure, align=center] (data) {Prepare \\ \& Analyze};    
+            \draw[conn] (measure) -- (data);}
+        \uncover<4->{
+                \node[concept, below=of data, align=center] (insight) {Generate\\ Insight};    
+                \draw[conn] (data) -- (insight);}
+        \uncover<5->{
+            \node[concept, below=of sys, align=center] (val) {Expert \\ Opinion};    
+            \draw[conn] (insight) -- (val);}
+        \uncover<6->{
+            \draw[conn] (val) -- 
+                        node[below] {Iterate}
+                        (sys);}
+        \uncover<7->{%
+                        \draw [decorate,decoration={brace,amplitude=10pt,mirror},ultra thick,jdblue]
+                            ($(insight.south west) + (-.2em,-1em)$) --
+                            ($(val.south east)    + (+.2em,-1em)$) coordinate[midway,yshift=-3.8em] (midpoint-below);
+                    
+                        \node[flowbox] at (midpoint-below) (strategic)  {
+                            \fbtitle{Strategic Guidelines}\vphantom{yÖ}
+                        \nodepart{two}
+                                \begin{minipage}[t]{.2\textwidth}
+                                \raggedright
+                                \begin{itemize}
+                                    \item Innocuous
+                                    \item Indicator
+                                \end{itemize}
+                            \end{minipage}
+                            \begin{minipage}[t]{.2\textwidth}
+                            \raggedleft
+                            \begin{itemize}
+                                \item Extrapolable
+                                \item Simple
+                            \end{itemize}
+                            \end{minipage}
+                        };
+                    }
+    \end{tikzpicture}
+    \end{center}
+\end{frame}
 
 \begin{frame}{Methodology}
     \begin{alertblock}{Key components}
@@ -27,16 +78,16 @@
     \end{alertblock}
 \end{frame}
 
-\begin{frame}{Methodology}
-    \begin{alertblock}{Strategic Guidelines}
-        \begin{enumerate}
-            \item System is innocuous to the worker and the product.
-            \item Generate an indicator that can be used to benchmark and evaluate workers.
-            \item Design a methodology that can be extrapolated to other cutting-tasks.
-            \item Avoid complex models if not needed.
-        \end{enumerate}
-    \end{alertblock}
-\end{frame}
+% \begin{frame}{Methodology}
+%     \begin{alertblock}{Strategic Guidelines}
+%         \begin{enumerate}
+%             \item System is innocuous to the worker and the product.
+%             \item Generate an indicator that can be used to benchmark and evaluate workers.
+%             \item Design a methodology that can be extrapolated to other cutting-tasks.
+%             \item Avoid complex models if not needed.
+%         \end{enumerate}
+%     \end{alertblock}
+% \end{frame}
 
 
 

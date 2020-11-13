@@ -5,128 +5,38 @@
 
 
 \begin{frame}{Objectives}
-    \begin{alertblock}{Strategic Guidelines}
-        \begin{enumerate}
-            \item System is innocuous to the worker and the product.
-            \item Generate an indicator that can be used to benchmark and evaluate workers.
-            \item Design a methodology that can be extrapolated to other cutting-tasks.
-            \item Avoid complex models if not needed.
-        \end{enumerate}
+    \begin{alertblock}{Objective}
+   \begin{enumerate}
+       \item Model the presence of the risk factors during a meat-cutting task as a Time Series Classification problem.
+       \item Determine if the information obtained from low-cost sensors, placed in the wrists of the worker, and combined with expert supervision, are sufficient to accurately assess the presence of risk factors.
+       \item Determine if the developed predictive modeling tools for the assessment of WRMSDs can be used to quantify the economic benefits of preventive decision making.
+       \item Determine if its possible to accurately predict when the worker starts and ends a cut.
+   \end{enumerate} 
     \end{alertblock}
 \end{frame}
 
-\begin{frame}{Objectives}
-    \begin{alertblock}{Objective 1}
-    Model the presence of the risk factors, during a meat-cutting task, as a time series classification problem.
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{Objectives}
-    \begin{alertblock}{Objective 2}
-    Determine if the information obtained from low-cost sensors, placed in the wrists of the worker, and combined with expert supervision, are sufficient to accurately assess the presence of risk factors. For this, we focus on two risk factors 
-    \begin{enumerate}
-        \item The prediction of the RULA score, related to ergonomic risk and improper technique \cite{ViikariJuntura1983}.
-        \item The presence of a knife with a compromised blade, since bluntness has been found to increase the likelihood of WRMSDs by increasing the necessary exertions \cite{Marsot2007,Karltun2016,Savescu2018}.
-    \end{enumerate}
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{Objectives}
-    \begin{alertblock}{Objective 3}
-    Determine if the developed predictive modeling tools for the assessment of WRMSDs can be used to quantify the economic benefits of preventive decision making.
-    \end{alertblock}
-\end{frame}
-
-\begin{frame}{Objectives}
-    \begin{alertblock}{Objective 4}
-    Analyze if its possible to accurately predict whenever the worker begins and ends a cut.
-    \end{alertblock}
-\end{frame}
-
+% \begin{frame}{Objectives}
+%     \begin{alertblock}{Objective 2}
+%     Determine if the information obtained from low-cost sensors, placed in the wrists of the worker, and combined with expert supervision, are sufficient to accurately assess the presence of risk factors. For this, we focus on two risk factors 
+%     \begin{enumerate}
+%         \item The prediction of the RULA score, related to ergonomic risk and improper technique \cite{ViikariJuntura1983}.
+%         \item The presence of a knife with a compromised blade, since bluntness has been found to increase the likelihood of WRMSDs by increasing the necessary exertions \cite{Marsot2007,Karltun2016,Savescu2018}.
+%     \end{enumerate}
+%     \end{alertblock}
+% \end{frame}
 
 
 \begin{frame}{Hypothesis}
     \begin{alertblock}{Research Questions}
+        Is it possible to...
     \begin{enumerate}%[<+->]\itemsep9pt
-    \item Is it possible to gather information from low-cost accelerometers, placed wrists of slaughterhouse workers and use it as input for machine learning algorithms that accurately predict the presence of risk factors in cutting activities.
-    \item Can we use the predictions of risk factors as a replacement for human ergonomic supervision and prevention.
-    \item Is it possible to assess risk factors with limited human supervision, and only relying on auxiliary predictions.
-    \item There exists a positive relationship between a reduction in ergonomic risk and improving productivity.
+    \item Gather information from low-cost accelerometers, placed wrists of slaughterhouse workers and use it as input for machine learning algorithms that accurately predict the presence of risk factors in cutting activities.
+    \item Use the predictions of risk factors as a replacement for human ergonomic supervision and prevention.
+    \item Assess risk factors with limited human supervision, and only relying on auxiliary predictions.
+    \item Identify a positive relationship between a reduction in ergonomic risk and productivity.
     \end{enumerate}
     \end{alertblock}
 \end{frame}
-
-
-\begin{frame}{Hypothesis}{Disciplines for investigating energy topics}
-    \begin{center}
-    \begin{tikzpicture}[
-      node distance=4.5em and .75cm,font=\small
-    ]
-    % flowboxes
-    \node[flowbox] (physik) {
-        \fbtitle{Physics}\vphantom{yÖ}
-    \nodepart{two}
-        \begin{minipage}{.16\textwidth}
-            \centering
-            Theoretical\\ feasibility\\
-            \scriptsize (Natural laws)
-        \end{minipage}
-    };
-
-    \node[flowbox,right=of physik] (technik) {
-        \fbtitle{Engineering}\vphantom{yÖ}
-    \nodepart{two}
-        \begin{minipage}{.16\textwidth}
-            \centering
-            Technical\\ feasibility\\
-            \scriptsize (Technologies)
-        \end{minipage}
-    };
-
-    \node[flowbox,right=of technik] (econ) {
-        \fbtitle{Economy}\vphantom{yÖ}
-    \nodepart{two}
-        \begin{minipage}{.16\textwidth}
-            \centering
-            Economic\\ feasibility\\
-            \scriptsize (Funding)
-        \end{minipage}
-    };
-
-    \node[flowbox,right=of econ] (society) {
-        \fbtitle{Society}\vphantom{yÖ}
-    \nodepart{two}
-        \begin{minipage}{.16\textwidth}
-            \centering
-            Social\\ feasibility\\
-            \scriptsize (Decision space)
-        \end{minipage}
-    };
-
-    \uncover<2->{%
-        \draw [decorate,decoration={brace,amplitude=10pt,mirror},ultra thick,jdblue]
-            ($(technik.south west) + (-.2em,-1em)$) --
-            ($(econ.south east)    + (+.2em,-1em)$) coordinate[midway,yshift=-3.8em] (midpoint-below);
-    
-        \node[flowbox] at (midpoint-below) (tech-econ)  {
-            \fbtitle{Techno-economic modelling}\vphantom{yÖ}
-        \nodepart{two}
-            \begin{minipage}{.4\textwidth}
-                \centering
-                How much energy?
-                For how much?\vphantom{yÖ}
-            \end{minipage}
-        };
-    }
-    \end{tikzpicture}
-    \end{center}
-\end{frame}
-
-
-
-
-
-
 
 
 
