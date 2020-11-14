@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex defense"] 1605293167 "defense.aux" "defense.bbl" "defense" 1605293170
+["bibtex defense"] 1605355209 "defense.aux" "defense.bbl" "defense" 1605355228
   "/usr/local/texlive/2020/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "defense.aux" 1605293169 6586 ddf9e579f454a4592fe10508b58aa31d "xelatex"
+  "defense.aux" 1605355221 6586 431ffc50a881cd57bb683c0f0a8c81ff "xelatex"
   "mybibfile.bib" 1604492969 114547 5c1b0a0166cb95a8035cfa89a74d225d ""
   (generated)
   "defense.blg"
   "defense.bbl"
-["xdvipdfmx"] 1605293170 "defense.xdv" "defense.pdf" "defense" 1605293170
-  "defense.xdv" 1605293169 194052 6dbdb500ed99b9c4c47858c0d9b68a39 "xelatex"
+["xdvipdfmx"] 1605355222 "defense.xdv" "defense.pdf" "defense" 1605355228
+  "defense.xdv" 1605355221 215652 1b0ddf9d9fcdb3851cb5b5f79ed6fa01 "xelatex"
   (generated)
   "defense.pdf"
-["xelatex"] 1605293167 "/Users/amvillalobos/Documents/Thesis/Thesis-Defense/defense.tex" "defense.xdv" "defense" 1605293170
+["xelatex"] 1605355209 "/Users/amvillalobos/Documents/Thesis/Thesis-Defense/defense.tex" "defense.xdv" "defense" 1605355228
   "/Users/amvillalobos/Documents/Thesis/Thesis-Defense/defense.tex" 1605289733 1303 dcaf1bea8ea2e3f1eb98d2e7144e7fb2 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136768653 6628 34c39492c0adc454c1c199922bba8363 ""
@@ -340,23 +340,25 @@
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1586288269 4769632 cea4f80911e5df070b1f6d7834d4faf8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "beamerthemeJD.sty" 1604492950 7507 3dae5667f27a710c69b5d48de05241d9 ""
-  "defense.aux" 1605293169 6586 ddf9e579f454a4592fe10508b58aa31d "xelatex"
-  "defense.bbl" 1605293167 3072 9c46db40f688254daaaa3c45d1eb8d74 "bibtex defense"
-  "defense.nav" 1605293169 2854 34b53dee9c49872839815cf16572dd6f "xelatex"
-  "defense.out" 1605293169 250 2b73fec11356782153ca138d6397f783 "xelatex"
+  "defense.aux" 1605355221 6586 431ffc50a881cd57bb683c0f0a8c81ff "xelatex"
+  "defense.bbl" 1605355209 3072 9c46db40f688254daaaa3c45d1eb8d74 "bibtex defense"
+  "defense.nav" 1605355221 2854 e7648ef251e75056fb31527ef56286a1 "xelatex"
+  "defense.out" 1605355221 250 2b73fec11356782153ca138d6397f783 "xelatex"
   "defense.tex" 1605289733 1303 dcaf1bea8ea2e3f1eb98d2e7144e7fb2 ""
-  "defense.toc" 1605293169 249 28cdca0ab2eabf584265feabe62c69fe "xelatex"
+  "defense.toc" 1605355221 249 28cdca0ab2eabf584265feabe62c69fe "xelatex"
+  "img/measuring_system/gui1.jpg" 1597951499 2089828 e6d0c648db03a42123f11e913b54207a ""
+  "img/measuring_system/prototype.png" 1605353881 2568008 c7c17f9462107c02ef6be5039538fba2 ""
   "src/introduction.tex" 1605021187 6701 13ebc0884f5f00717b18b8b196f78fc4 ""
-  "src/methodology.tex" 1605293163 5290 85d59ee54773ec73549a5b0b35968604 ""
+  "src/methodology.tex" 1605355194 6749 820e7707cd4f586fdc039131f274dee0 ""
   "src/objectives.tex" 1605281918 2333 ffce87498a1cdcafe328349e2cc71872 ""
   "tex/setup-colors.tex" 1604492950 3571 89ec5aa73a8a96fd37f087ecf6f53ae8 ""
   "tex/setup-settings.tex" 1605288271 2896 cb8e650cad21fe77aca6cddbb7dfc9df ""
   "tex/setup.tex" 1605282707 841 36441f07a81137d3e1965c99adaf56ee ""
   (generated)
-  "defense.snm"
+  "defense.log"
   "defense.aux"
-  "defense.out"
   "defense.nav"
   "defense.xdv"
   "defense.toc"
-  "defense.log"
+  "defense.snm"
+  "defense.out"

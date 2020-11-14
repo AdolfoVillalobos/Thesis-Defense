@@ -612,6 +612,12 @@ INPUT src/objectives.tex
 INPUT src/objectives.tex
 INPUT src/methodology.tex
 INPUT src/methodology.tex
+INPUT img/measuring_system/prototype.png
+INPUT img/measuring_system/gui1.jpg
+INPUT img/measuring_system/prototype.png
+INPUT img/measuring_system/gui1.jpg
+INPUT img/measuring_system/prototype.png
+INPUT img/measuring_system/gui1.jpg
 INPUT defense.bbl
 INPUT defense.bbl
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamericonarticle.pdf

@@ -49,14 +49,14 @@
                                 \raggedright
                                 \begin{itemize}
                                     \item Innocuous
-                                    \item Indicator
+                                    \item Indicator Evolution
                                 \end{itemize}
                             \end{minipage}
                             \begin{minipage}[t]{.2\textwidth}
                             \raggedleft
                             \begin{itemize}
-                                \item Extrapolable
-                                \item Simple
+                                \item Task Extrapolation
+                                \item Avoid Complexity
                             \end{itemize}
                             \end{minipage}
                         };
@@ -66,7 +66,7 @@
 \end{frame}
 
 \begin{frame}{Methodology}
-    \begin{alertblock}{Key components}
+    \begin{alertblock}{Resulting Framework}
         \begin{enumerate}
             \item We model each risk factor of interest as a supervised learning problem.
             \item Hence, for each problem we will need to provide supervision. This is done by performing measurements on workers.
@@ -78,29 +78,61 @@
     \end{alertblock}
 \end{frame}
 
-% \begin{frame}{Methodology}
-%     \begin{alertblock}{Strategic Guidelines}
+
+\begin{frame}
+    \frametitle{Prototype}
+
+    \begin{center}
+        \begin{tikzpicture}[node distance=1em and 2ex,font=\small]
+            \setlength{\leftmargini}{10pt}
+
+            \uncover<1->{\node[flowbox,fb-muted] (dev) {
+                        \fbtitle{Bracelet}\vphantom{yÖ}
+                        \nodepart{two}
+                        \begin{minipage}{.29\textwidth}
+                        \centering
+                        \includegraphics[width=.95\textwidth]{img/measuring_system/prototype.png}   
+                        \end{minipage}};}
+            \uncover<2->{\node[flowbox,fb-muted,right=of dev] (gui) {
+                        \fbtitle{GUI}\vphantom{yÖ}
+                        \nodepart{two}
+                        \begin{minipage}{.29\textwidth}
+                        \centering
+                        \includegraphics[width=.9\textwidth]{img/measuring_system/gui1.jpg}
+                        \end{minipage}};
+                        \draw[conn] (dev) -- (gui);}
+            \uncover<3->{\node[flowbox,fb-muted,right=of gui] (data) {
+                        \fbtitle{Batch Layer}\vphantom{yÖ}
+                        \nodepart{two}
+                        \begin{minipage}[t]{.2\textwidth}
+                        \raggedright
+                        \begin{itemize}
+                        \item Innocuous
+                        \item Indicator Evolution
+                        \end{itemize}
+                        \end{minipage}
+                        \begin{minipage}[t]{.2\textwidth}
+                        \raggedleft
+                        \begin{itemize}
+                        \item Task Extrapolation
+                        \item Avoid Complexity
+                        \end{itemize}
+                        \end{minipage}};
+                        \draw[conn] (gui) -- (data);}
+        \end{tikzpicture}
+    \end{center}
+\end{frame}
+
+% \begin{frame}{Prototype}
+%     \begin{alertblock}{Components}
+%         The prototype had 3 components.
 %         \begin{enumerate}
-%             \item System is innocuous to the worker and the product.
-%             \item Generate an indicator that can be used to benchmark and evaluate workers.
-%             \item Design a methodology that can be extrapolated to other cutting-tasks.
-%             \item Avoid complex models if not needed.
+%             \item The Graphical User Interface (GUI).
+%             \item The wristband-based devices.
+%             \item The Batch Layer.
 %         \end{enumerate}
 %     \end{alertblock}
 % \end{frame}
-
-
-
-\begin{frame}{Prototype}
-    \begin{alertblock}{Components}
-        The prototype had 3 components.
-        \begin{enumerate}
-            \item The Graphical User Interface (GUI).
-            \item The wristband-based devices.
-            \item The Batch Layer.
-        \end{enumerate}
-    \end{alertblock}
-\end{frame}
 
 \begin{frame}{Experiments}
 \begin{alertblock}{Sample population}
